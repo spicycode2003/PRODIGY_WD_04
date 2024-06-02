@@ -1,0 +1,126 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Container styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px; /* Add padding to keep content away from edges */
+}
+
+/* Header styles */
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 150px; /* Decrease profile picture size */
+    height: 150px; /* Decrease profile picture size */
+    margin-bottom: 10px; /* Adjust margin */
+}
+
+.intro {
+    margin-bottom: 20px; /* Adjust margin */
+}
+
+.intro h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Objective styles */
+.objective {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 20px 0;
+}
+
+.objective h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+/* Skills, Projects, Internship, Achievements styles */
+.skills,
+.projects,
+.internship,
+.achievements {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 20px 0;
+}
+
+.skills-box h2,
+.projects-box h2,
+.internship-box h2,
+.achievements-box h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.skills-list li,
+.achievements-list li {
+    margin-bottom: 8px; /* Decrease margin */
+}
+
+/* Contact styles */
+.contact {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 20px 0;
+}
+
+.contact h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.contact li {
+    margin-bottom: 8px; /* Decrease margin */
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 10px; /* Adjust padding for smaller screens */
+    }
+
+    .profile-picture {
+        width: 120px;
+        height: 120px;
+    }
+}
